@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/ufo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+    
+    <title>PORTAFOLIO</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Portafolio</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/perfil.jpg" alt="">
+            </div>
+            <h1>ALEJANDRO SEPÚLVEDA</h1>
+            <h2>Analista Programador</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/alejandro-sepulveda/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/alejandro-sepulveda"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, me llamo Alejandro Sepulveda.</span> Analista programador apasionado por la tecnología y los nuevos desafíos. Actualmente en busca de una oportunidad en la que pueda desarrollarme profesionalmente y a su vez poder aportar mis conocimientos.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        
+                        <li>
+                            <strong>Teléfono</strong>
+                            +56976555910
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            alejandro_sepulveda16@hotmail.com
+                        </li>
+                        
+                        <li>
+                            <strong>Dirección</strong>
+                            Chillan
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Analista Programador</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                       
+                        <div class="interes">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-umbrella-beach"></i>
+                            <span>Playa</span>
+                        </div>
+                       
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <div>
+                          
+                    <button>
+                        Descargar CV <a href="AlejandroSepulvedacurriculum.pdf" download class="fa-solid fa-download"></a>
+                        
+                        
+                    
+                        <span class="overlay"></span>
+                    </button>
+
+            </div>
+                
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades Técnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java - Android Studio</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Vue js - Adonis</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Php - Laravel</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Mysql - Firebase</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Capacidad de Adaptacíon</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Creatividad e Innovación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Aprendizaje Continuo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- SECCION PORTFOLIO -->
+   <section id="portfolio" class="portfolio">
+    <div class="contenido-seccion">
+        <h2>PORTAFOLIO</h2>
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="img/redcollege.png" alt="">
+                <div class="overlay">
+                    <h3>Intranet REDCOLLEGE</h3>
+                    <p>Encargado de mantención, Desarrollo de nuevas funciones</p>
+                    <p>Vue js - Adonis - Pug </p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/Arauco.png" alt="">
+                <div class="overlay">
+                    <h3>Aplicación Movil para empresa Forestal ARAUCO</h3>
+                    <p>Generación de reportes, desarrollo desde 0</p>
+                    <p>Java- Android studio - Firebase</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/citizen.png" alt="">
+                <div class="overlay">
+                    <h3>Aplicación Movil para empresa Privada</h3>
+                    <p>Creación de App Intranet, generando reportes, estadisticas, etc</p>
+                    <p>Java- Android Studio - Firebase - Boostrap - Php</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/Turist.png" alt="">
+                <div class="overlay">
+                    <h3>Aplicación Movil de Turismo</h3>
+                    <p>App de Proyecto, creada para generar una experiencia enriquecedora con realidad aumentada</p>
+                    <p>c# - Unity - Firebase </p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/ratingjobs.png" alt="">
+                <div class="overlay">
+                    <h3>Aplicación de Rating de trabajos (en Proceso)/h3>
+                    <p>Creación de "redSocial" capaz de advertir de trabajos con mal ambiente laboral</p>
+                    <p>Java- Android Studio- Firebase</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/tiburon.png" alt="">
+                <div class="overlay">
+                    <h3>Aplicación Movil de repuestos automotrices</h3>
+                    <p>App en proceso en el cual se centra en un modelo en especifico, indicando repuestos compatibles</p>
+                    <p>Android Studio- Java - Firebase</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    
+
+
+
+    
+    <script src="js/script.js"></script>
+
+
+   
+    
+</body>
+</html>
